@@ -1,6 +1,6 @@
 # Rush 01 (Skyscraper puzzle) checker, visualizer
 
-For the usage with the output of rush 01.
+For usage with the output of rush 01.
 The program reads the rush from stdin.
 
 ARG="4 3 2 1 1 2 2 2 4 3 2 1 1 2 2 2"; ./rush_01 $ARG | ./Checker_rush $ARG; ./fdfexec output
