@@ -20,8 +20,13 @@ Feel free to change the error messages if they are too cringe :D
 
 # Credits to the contributors
 https://github.com/LuEklund
+
 https://github.com/nascimento-jgb
+
 https://github.com/jboucher154
+
 https://github.com/jontssu
+
 https://github.com/Hseppanen
+
 https://github.com/lanximaomao
