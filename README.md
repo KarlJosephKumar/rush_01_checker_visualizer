@@ -1,5 +1,7 @@
 # Rush 01 (Skyscraper puzzle) checker, visualizer
 
+To compile the executables: make in the source folder.
+
 For usage with the output of rush 01.
 The program reads the rush from stdin.
 
