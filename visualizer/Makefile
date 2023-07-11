@@ -1,6 +1,6 @@
 # Meta
 
-NAME := fdf
+NAME := fdfexec
 
 SRCDIR := ./src
 OBJDIR := ./obj
