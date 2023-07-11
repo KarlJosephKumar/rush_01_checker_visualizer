@@ -16,6 +16,10 @@ To test the file:
 
 ARG="2 4 4 3 3 2 2 2 1 3 2 2 4 4 2 1 3 3 6 1 2 4 3 4 2 2 3 1 4 2 2 3 2 2 3 2"; ./Checker_rush $ARG < 9x9_with_argument.txt; ./fdfexec output
 
+Visualizer works as follows:
+Click mouse scroll and up - down movement for in and out zoom.
+Right click to rotate.
+
 Feel free to change the error messages if they are too cringe :D
 
 # Credits to the contributors
