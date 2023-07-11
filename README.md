@@ -5,10 +5,12 @@ To compile the executables: make in the source folder.
 For usage with the output of rush 01.
 The program reads the rush from stdin.
 
-To run the program without the visualizer just leave it out as such: 
+To run the program without the visualizer just leave it out as such:
+
 ARG="4 3 2 1 1 2 2 2 4 3 2 1 1 2 2 2"; ./rush_01 $ARG | ./Checker_rush $ARG
 
 To run with the visualizer:
+
 ARG="4 3 2 1 1 2 2 2 4 3 2 1 1 2 2 2"; ./rush_01 $ARG | ./Checker_rush $ARG; ./fdfexec output
 
 This is a valid output for the checker.
