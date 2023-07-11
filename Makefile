@@ -24,6 +24,7 @@ OBJS = $(patsubst %, $(OBJS_DIR)%, $(SRCS:.c=.o))
 all: $(NAME)
 $(NAME): $(OBJS_DIR) $(OBJS)
 	@cc $(FLAGS) $(OBJS) -o $@
+	@cd visualizer && make
 	@echo "$(COLOUR_GREEN)$@ created$(COLOUR_END)"
 
 $(OBJS_DIR):
