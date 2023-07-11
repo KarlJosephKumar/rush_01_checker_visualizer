@@ -24,7 +24,9 @@ OBJS = $(patsubst %, $(OBJS_DIR)%, $(SRCS:.c=.o))
 all: $(NAME)
 $(NAME): $(OBJS_DIR) $(OBJS)
 	@cc $(FLAGS) $(OBJS) -o $@
-	@cd visualizer && make
+	@cd visualizer && make && cd ..
+	@mv visualizer/fdfexec fdfexec
+	@rm visualizer/fdfexec
 	@echo "$(COLOUR_GREEN)$@ created$(COLOUR_END)"
 
 $(OBJS_DIR):
@@ -42,6 +44,8 @@ clean:
 fclean: clean
 	@rm -rf $(OBJS_DIR)
 	@rm -f $(NAME)
+	@cd visualizer && make fclean && cd ..
+	@rm fdfexec
 	@echo "$(COLOUR_RED)$(NAME) removed$(COLOUR_END)"
 
 re: fclean all
